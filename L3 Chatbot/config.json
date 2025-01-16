@@ -1,0 +1,33 @@
+{
+    "agent_names": ["Dikshya", "Diki", "Rose", "Anav"],
+    "keywords": {
+      "hello": ["Hello, {name}!", "Hi there, {name}! How can I help?"],
+      "help": ["I'm here to assist you, {name}.", "What do you need help with, {name}?"],
+      "bye": ["Goodbye, {name}! Come back soon."],
+      "university": ["The University of Poppleton is a vibrant institution known for academic excellence, innovative research, and a thriving campus community."],
+      "admission": ["The Admission Department of Poppleton University is open from 7 AM to 6 PM.", "You can find admission details on our university website."],
+      "weather": ["It's sunny today!", "It looks like it might rain."],
+      "time": ["The current time is {time}.", "It's time to shine, {name}!"],
+      "joke": ["Why does every university have that one security guard who acts like the dean?", "Why did the math book look sad? It had too many problems."],
+      "thank": ["You're welcome, {name}!", "Anytime, {name}!"],
+      "library": ["The library is open from 8 AM to 9 PM.", "You can check out the online library portal for resources."],
+      "cafeteria": ["The cafeteria offers meals from 7 AM to 9PM.", "It has its one special item daily"],
+      "hostel": ["Hostel rooms are allocated during the admission process.", "You can visit the hostel office for more information."],
+      "events": ["The Holi Fest happening soon", "Check out our mails for upcoming activities."],
+      "results": ["Results will be published on the student portal.", "You can access your results via the Leeds Beckett Blackboard."],
+      "sports": ["The sports week is ongoing.", "Join the basketball team tryouts this Saturday!"],
+      "fees": ["The fee structure is available on the university website.", "Contact the finance office for fee-related inquiries."],
+      "exam": ["Final exams start next Monday.", "The exam schedule is available on the student portal."],
+      "scholarship": ["Scholarship depends upon the students performance.", "Visit the Admission department for details."],
+      "placements": ["The placement drive starts next week.", "Prepare your resumes for the placement season!"]
+    },
+    "default_responses": [
+      "I'm not sure about that, {name}.",
+      "Can you help me with that?",
+      "Can we collab in our TBC Holi fest, {name}?",
+      "Would you like to collaborate? It sounds interesting, {name}."
+    ],
+    "exit_commands": ["bye", "quit", "exit"],
+    "random_disconnect": true,
+    "max_interactions": 5
+  }

@@ -1,0 +1,24 @@
+User: what is name of university?
+Chatbot: The University of Poppleton is a vibrant institution known for academic excellence, innovative research, and a thriving campus community.
+User: any events soon in this university?
+Chatbot: The University of Poppleton is a vibrant institution known for academic excellence, innovative research, and a thriving campus community.
+User: what about admissions?
+Chatbot: The Admission Department of Poppleton University is open from 7 AM to 6 PM.
+User: library?
+Chatbot: You can check out the online library portal for resources.
+User: hello rose what about sports?
+Chatbot: Hello, diki!
+User: hello anav is there any idea about library?
+Chatbot: Hello, diki!
+User: any sports in this university?
+Chatbot: The University of Poppleton is a vibrant institution known for academic excellence, innovative research, and a thriving campus community.
+User: why we choose this university?
+Chatbot: The University of Poppleton is a vibrant institution known for academic excellence, innovative research, and a thriving campus community.
+User: great. why we choose this university?
+Chatbot: The University of Poppleton is a vibrant institution known for academic excellence, innovative research, and a thriving campus community.
+User: any sports ?
+Chatbot: The sports week is ongoing.
+User: what about admission here?
+Chatbot: The Admission Department of Poppleton University is open from 7 AM to 6 PM.
+User: does it have library ?
+Chatbot: You can check out the online library portal for resources.
