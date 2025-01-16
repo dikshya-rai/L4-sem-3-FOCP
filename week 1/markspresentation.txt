@@ -1,0 +1,47 @@
+import tkinter as tk
+import matplotlib.pyplot as plt
+
+
+root=tk.Tk()
+root.title=("Students Marks Display")
+root.geometry("500x500")
+
+subjects=["English","Nepali","Maths"]
+marks={}
+
+input_frame=tk.Frame(root)
+input_frame.grid(row=1,column=0)
+
+for sub in subjects:
+    marks[sub]=tk.IntVar(value=0)
+
+for i,subject in enumerate(subjects):
+    tk.Label(input_frame,text=f"Mark of {subject}").grid(row=i,column=0)
+    tk.Entry(input_frame,textvariable=marks[subject]).grid(row=i,column=1)
+
+    
+
+def generate_report():
+    cat=[]
+    count=[]
+    result_text=""
+
+    for sub in subjects:
+        cat.append(sub)
+        count.append(marks[sub].get())
+        result_text+=f"marks of {sub} is {marks[sub].get()} \n"
+        result_label.config(text=result_text)
+
+    plt.bar(cat,count)
+    plt.title("marks graph")
+    plt.ylabel("marks")
+    plt.xlabel("subject")
+    plt.show()
+
+
+tk.Button(input_frame,text="Generate Report",command=generate_report).grid(row=4,column=0)
+result_label=tk.Label(input_frame,text="", font=("Arial", 12), justify="left")
+result_label.grid(row=5,column=0,rowspan=3,columnspan=3)
+  
+
+root.mainloop()
